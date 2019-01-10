@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.version       = "1.0.0"
   s.summary       = "Ticket manager sdk"
   s.description   = "Ticket management sdk demo"
-  s.homepage      = "http ://nal.vn"
+  s.homepage      = "http://nal.vn"
   s.license       = "MIT"
   s.author        = "Phu Nguyen"
   s.platform      =       :ios, "9.0"
