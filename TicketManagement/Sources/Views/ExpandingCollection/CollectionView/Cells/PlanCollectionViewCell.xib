@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PlanCollectionViewCell" customModule="TicketManagement" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="219" height="266"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="219" height="266"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Lt-Eg-ss9">
+                        <rect key="frame" x="3" y="0.0" width="213" height="196"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SAy-Tt-tpr">
+                        <rect key="frame" x="3" y="0.0" width="213" height="196"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="SAy-Tt-tpr" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" constant="-6" id="65N-VK-T04"/>
+                <constraint firstItem="1Lt-Eg-ss9" firstAttribute="centerY" secondItem="SAy-Tt-tpr" secondAttribute="centerY" id="HIa-lx-Tbx"/>
+                <constraint firstItem="1Lt-Eg-ss9" firstAttribute="height" secondItem="SAy-Tt-tpr" secondAttribute="height" id="Sxx-Ui-7UT"/>
+                <constraint firstItem="SAy-Tt-tpr" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="dgP-gw-ss0"/>
+                <constraint firstItem="SAy-Tt-tpr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="dty-86-04j"/>
+                <constraint firstItem="1Lt-Eg-ss9" firstAttribute="width" secondItem="SAy-Tt-tpr" secondAttribute="width" id="kdh-zS-iYb"/>
+                <constraint firstItem="SAy-Tt-tpr" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" constant="-70" id="nSa-XW-zqG"/>
+                <constraint firstItem="1Lt-Eg-ss9" firstAttribute="centerX" secondItem="SAy-Tt-tpr" secondAttribute="centerX" id="ygn-IK-cEQ"/>
+            </constraints>
+            <size key="customSize" width="219" height="266"/>
+            <connections>
+                <outlet property="imageView" destination="SAy-Tt-tpr" id="Cq8-ZU-Amt"/>
+                <outlet property="positionXCT" destination="dty-86-04j" id="FwT-FS-ysh"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="140.32983508245877"/>
+        </collectionViewCell>
+    </objects>
+</document>

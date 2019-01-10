@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E23D56EF21E34DC80051F8AB /* TicketManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23D56E521E34DC80051F8AB /* TicketManagement.framework */; };
+		E23D56F421E34DC80051F8AB /* TicketManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D56F321E34DC80051F8AB /* TicketManagementTests.swift */; };
+		E23D56F621E34DC80051F8AB /* TicketManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = E23D56E821E34DC80051F8AB /* TicketManagement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E23D573F21E34E650051F8AB /* Ticket.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23D573E21E34E650051F8AB /* Ticket.storyboard */; };
+		E23D574321E34F310051F8AB /* TicketStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D574221E34F310051F8AB /* TicketStatus.swift */; };
+		E23D574621E43BAC0051F8AB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D574521E43BAC0051F8AB /* Utilities.swift */; };
+		E23D574921E43BC80051F8AB /* UIViewController+ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D574821E43BC80051F8AB /* UIViewController+ContainerView.swift */; };
+		E23D574B21E43C170051F8AB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D574A21E43C170051F8AB /* LoginViewController.swift */; };
+		E243BD7121E45E6E00D39ACD /* TicketManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E243BD7021E45E6D00D39ACD /* TicketManageViewController.swift */; };
+		E252C5BC21E49A9800F0C793 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E252C5BB21E49A9800F0C793 /* Login.storyboard */; };
+		E252C5BE21E49BC800F0C793 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E252C5BD21E49BC800F0C793 /* Image.xcassets */; };
+		E252C5C421E4A1E800F0C793 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E252C5C321E4A1E800F0C793 /* Constants.swift */; };
+		E2B43F6C21E47EBE0054DE7A /* TicketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B43F6B21E47EBE0054DE7A /* TicketManager.swift */; };
+		E2DCC45A21E5A5D1002C7E1C /* PlanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DCC44821E5A5D1002C7E1C /* PlanCollectionViewCell.swift */; };
+		E2DCC45B21E5A5D1002C7E1C /* PlanCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2DCC44921E5A5D1002C7E1C /* PlanCollectionViewCell.xib */; };
+		E2DCC45C21E5A5D1002C7E1C /* PageCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DCC44B21E5A5D1002C7E1C /* PageCollectionLayout.swift */; };
+		E2DCC45D21E5A5D1002C7E1C /* PageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DCC44C21E5A5D1002C7E1C /* PageCollectionView.swift */; };
+		E2DCC45E21E5A5D1002C7E1C /* ExpandDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DCC44D21E5A5D1002C7E1C /* ExpandDetailViewController.swift */; };
+		E2DCC45F21E5A5D1002C7E1C /* ScreenShotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DCC45021E5A5D1002C7E1C /* ScreenShotHelper.swift */; };
+		E2DCC46021E5A5D1002C7E1C /* ConstraintsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DCC45221E5A5D1002C7E1C /* ConstraintsHelper.swift */; };
+		E2DCC46121E5A5D1002C7E1C /* SubviewsForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DCC45421E5A5D1002C7E1C /* SubviewsForEach.swift */; };
+		E2DCC46221E5A5D1002C7E1C /* ConfigurationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DCC45621E5A5D1002C7E1C /* ConfigurationHelper.swift */; };
+		E2DCC46321E5A5D1002C7E1C /* CornerAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DCC45921E5A5D1002C7E1C /* CornerAnimatable.swift */; };
+		E2DCC46521E5A5D8002C7E1C /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DCC46421E5A5D8002C7E1C /* BookingViewController.swift */; };
+		E2DCC46721E5A5DF002C7E1C /* Booking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DCC46621E5A5DF002C7E1C /* Booking.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E23D56F021E34DC80051F8AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E23D56DC21E34DC80051F8AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E23D56E421E34DC80051F8AB;
+			remoteInfo = TicketManagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E23D56E521E34DC80051F8AB /* TicketManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TicketManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23D56E821E34DC80051F8AB /* TicketManagement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketManagement.h; sourceTree = "<group>"; };
+		E23D56E921E34DC80051F8AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23D56EE21E34DC80051F8AB /* TicketManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23D56F321E34DC80051F8AB /* TicketManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketManagementTests.swift; sourceTree = "<group>"; };
+		E23D56F521E34DC80051F8AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23D573E21E34E650051F8AB /* Ticket.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ticket.storyboard; sourceTree = "<group>"; };
+		E23D574221E34F310051F8AB /* TicketStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketStatus.swift; sourceTree = "<group>"; };
+		E23D574521E43BAC0051F8AB /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E23D574821E43BC80051F8AB /* UIViewController+ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ContainerView.swift"; sourceTree = "<group>"; };
+		E23D574A21E43C170051F8AB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E243BD7021E45E6D00D39ACD /* TicketManageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketManageViewController.swift; sourceTree = "<group>"; };
+		E252C5BB21E49A9800F0C793 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		E252C5BD21E49BC800F0C793 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		E252C5C321E4A1E800F0C793 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E2B43F6B21E47EBE0054DE7A /* TicketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketManager.swift; sourceTree = "<group>"; };
+		E2DCC44821E5A5D1002C7E1C /* PlanCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanCollectionViewCell.swift; sourceTree = "<group>"; };
+		E2DCC44921E5A5D1002C7E1C /* PlanCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlanCollectionViewCell.xib; sourceTree = "<group>"; };
+		E2DCC44B21E5A5D1002C7E1C /* PageCollectionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCollectionLayout.swift; sourceTree = "<group>"; };
+		E2DCC44C21E5A5D1002C7E1C /* PageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCollectionView.swift; sourceTree = "<group>"; };
+		E2DCC44D21E5A5D1002C7E1C /* ExpandDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandDetailViewController.swift; sourceTree = "<group>"; };
+		E2DCC45021E5A5D1002C7E1C /* ScreenShotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenShotHelper.swift; sourceTree = "<group>"; };
+		E2DCC45221E5A5D1002C7E1C /* ConstraintsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintsHelper.swift; sourceTree = "<group>"; };
+		E2DCC45421E5A5D1002C7E1C /* SubviewsForEach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubviewsForEach.swift; sourceTree = "<group>"; };
+		E2DCC45621E5A5D1002C7E1C /* ConfigurationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationHelper.swift; sourceTree = "<group>"; };
+		E2DCC45921E5A5D1002C7E1C /* CornerAnimatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerAnimatable.swift; sourceTree = "<group>"; };
+		E2DCC46421E5A5D8002C7E1C /* BookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		E2DCC46621E5A5DF002C7E1C /* Booking.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Booking.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E23D56E221E34DC80051F8AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23D56EB21E34DC80051F8AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23D56EF21E34DC80051F8AB /* TicketManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E23D56DB21E34DC80051F8AB = {
+			isa = PBXGroup;
+			children = (
+				E23D56E721E34DC80051F8AB /* TicketManagement */,
+				E23D56F221E34DC80051F8AB /* TicketManagementTests */,
+				E23D56E621E34DC80051F8AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E23D56E621E34DC80051F8AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E23D56E521E34DC80051F8AB /* TicketManagement.framework */,
+				E23D56EE21E34DC80051F8AB /* TicketManagementTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E23D56E721E34DC80051F8AB /* TicketManagement */ = {
+			isa = PBXGroup;
+			children = (
+				E23D573B21E34E3F0051F8AB /* Sources */,
+				E23D56E821E34DC80051F8AB /* TicketManagement.h */,
+				E23D56E921E34DC80051F8AB /* Info.plist */,
+			);
+			path = TicketManagement;
+			sourceTree = "<group>";
+		};
+		E23D56F221E34DC80051F8AB /* TicketManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				E23D56F321E34DC80051F8AB /* TicketManagementTests.swift */,
+				E23D56F521E34DC80051F8AB /* Info.plist */,
+			);
+			path = TicketManagementTests;
+			sourceTree = "<group>";
+		};
+		E23D573B21E34E3F0051F8AB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E2B43F6B21E47EBE0054DE7A /* TicketManager.swift */,
+				E2DCC44421E5A5D1002C7E1C /* Views */,
+				E252C5C221E4A1DB00F0C793 /* Utilities */,
+				E252C5BF21E49BD900F0C793 /* Resources */,
+				E23D574721E43BB40051F8AB /* Extensions */,
+				E23D573D21E34E500051F8AB /* ViewControllers */,
+				E23D573C21E34E450051F8AB /* Storyboards */,
+				E23D574221E34F310051F8AB /* TicketStatus.swift */,
+				E23D574521E43BAC0051F8AB /* Utilities.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E23D573C21E34E450051F8AB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E2DCC46621E5A5DF002C7E1C /* Booking.storyboard */,
+				E23D573E21E34E650051F8AB /* Ticket.storyboard */,
+				E252C5BB21E49A9800F0C793 /* Login.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E23D573D21E34E500051F8AB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2DCC46421E5A5D8002C7E1C /* BookingViewController.swift */,
+				E243BD7021E45E6D00D39ACD /* TicketManageViewController.swift */,
+				E23D574A21E43C170051F8AB /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E23D574721E43BB40051F8AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E23D574821E43BC80051F8AB /* UIViewController+ContainerView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E252C5BF21E49BD900F0C793 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E252C5BD21E49BC800F0C793 /* Image.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E252C5C221E4A1DB00F0C793 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E252C5C321E4A1E800F0C793 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E2DCC44421E5A5D1002C7E1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2DCC44521E5A5D1002C7E1C /* ExpandingCollection */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E2DCC44521E5A5D1002C7E1C /* ExpandingCollection */ = {
+			isa = PBXGroup;
+			children = (
+				E2DCC44621E5A5D1002C7E1C /* CollectionView */,
+				E2DCC44E21E5A5D1002C7E1C /* Helpers */,
+			);
+			path = ExpandingCollection;
+			sourceTree = "<group>";
+		};
+		E2DCC44621E5A5D1002C7E1C /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				E2DCC44721E5A5D1002C7E1C /* Cells */,
+				E2DCC44A21E5A5D1002C7E1C /* Layout */,
+				E2DCC44C21E5A5D1002C7E1C /* PageCollectionView.swift */,
+				E2DCC44D21E5A5D1002C7E1C /* ExpandDetailViewController.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		E2DCC44721E5A5D1002C7E1C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E2DCC44821E5A5D1002C7E1C /* PlanCollectionViewCell.swift */,
+				E2DCC44921E5A5D1002C7E1C /* PlanCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E2DCC44A21E5A5D1002C7E1C /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				E2DCC44B21E5A5D1002C7E1C /* PageCollectionLayout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		E2DCC44E21E5A5D1002C7E1C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E2DCC44F21E5A5D1002C7E1C /* ScreenShot */,
+				E2DCC45121E5A5D1002C7E1C /* Constraints Helpers */,
+				E2DCC45321E5A5D1002C7E1C /* SubviewsForEach */,
+				E2DCC45521E5A5D1002C7E1C /* ConfigurationHelper */,
+				E2DCC45721E5A5D1002C7E1C /* Animations */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E2DCC44F21E5A5D1002C7E1C /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				E2DCC45021E5A5D1002C7E1C /* ScreenShotHelper.swift */,
+			);
+			path = ScreenShot;
+			sourceTree = "<group>";
+		};
+		E2DCC45121E5A5D1002C7E1C /* Constraints Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E2DCC45221E5A5D1002C7E1C /* ConstraintsHelper.swift */,
+			);
+			path = "Constraints Helpers";
+			sourceTree = "<group>";
+		};
+		E2DCC45321E5A5D1002C7E1C /* SubviewsForEach */ = {
+			isa = PBXGroup;
+			children = (
+				E2DCC45421E5A5D1002C7E1C /* SubviewsForEach.swift */,
+			);
+			path = SubviewsForEach;
+			sourceTree = "<group>";
+		};
+		E2DCC45521E5A5D1002C7E1C /* ConfigurationHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E2DCC45621E5A5D1002C7E1C /* ConfigurationHelper.swift */,
+			);
+			path = ConfigurationHelper;
+			sourceTree = "<group>";
+		};
+		E2DCC45721E5A5D1002C7E1C /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				E2DCC45821E5A5D1002C7E1C /* CornerAnimatable */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		E2DCC45821E5A5D1002C7E1C /* CornerAnimatable */ = {
+			isa = PBXGroup;
+			children = (
+				E2DCC45921E5A5D1002C7E1C /* CornerAnimatable.swift */,
+			);
+			path = CornerAnimatable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E23D56E021E34DC80051F8AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23D56F621E34DC80051F8AB /* TicketManagement.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E23D56E421E34DC80051F8AB /* TicketManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23D56F921E34DC80051F8AB /* Build configuration list for PBXNativeTarget "TicketManagement" */;
+			buildPhases = (
+				E23D56E021E34DC80051F8AB /* Headers */,
+				E23D56E121E34DC80051F8AB /* Sources */,
+				E23D56E221E34DC80051F8AB /* Frameworks */,
+				E23D56E321E34DC80051F8AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicketManagement;
+			productName = TicketManagement;
+			productReference = E23D56E521E34DC80051F8AB /* TicketManagement.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E23D56ED21E34DC80051F8AB /* TicketManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23D56FC21E34DC80051F8AB /* Build configuration list for PBXNativeTarget "TicketManagementTests" */;
+			buildPhases = (
+				E23D56EA21E34DC80051F8AB /* Sources */,
+				E23D56EB21E34DC80051F8AB /* Frameworks */,
+				E23D56EC21E34DC80051F8AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E23D56F121E34DC80051F8AB /* PBXTargetDependency */,
+			);
+			name = TicketManagementTests;
+			productName = TicketManagementTests;
+			productReference = E23D56EE21E34DC80051F8AB /* TicketManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E23D56DC21E34DC80051F8AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Nals;
+				TargetAttributes = {
+					E23D56E421E34DC80051F8AB = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					E23D56ED21E34DC80051F8AB = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = E23D56DF21E34DC80051F8AB /* Build configuration list for PBXProject "TicketManagement" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E23D56DB21E34DC80051F8AB;
+			productRefGroup = E23D56E621E34DC80051F8AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E23D56E421E34DC80051F8AB /* TicketManagement */,
+				E23D56ED21E34DC80051F8AB /* TicketManagementTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E23D56E321E34DC80051F8AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E252C5BC21E49A9800F0C793 /* Login.storyboard in Resources */,
+				E2DCC46721E5A5DF002C7E1C /* Booking.storyboard in Resources */,
+				E2DCC45B21E5A5D1002C7E1C /* PlanCollectionViewCell.xib in Resources */,
+				E252C5BE21E49BC800F0C793 /* Image.xcassets in Resources */,
+				E23D573F21E34E650051F8AB /* Ticket.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23D56EC21E34DC80051F8AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E23D56E121E34DC80051F8AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23D574B21E43C170051F8AB /* LoginViewController.swift in Sources */,
+				E2DCC46021E5A5D1002C7E1C /* ConstraintsHelper.swift in Sources */,
+				E2DCC45A21E5A5D1002C7E1C /* PlanCollectionViewCell.swift in Sources */,
+				E23D574921E43BC80051F8AB /* UIViewController+ContainerView.swift in Sources */,
+				E2DCC46121E5A5D1002C7E1C /* SubviewsForEach.swift in Sources */,
+				E23D574621E43BAC0051F8AB /* Utilities.swift in Sources */,
+				E243BD7121E45E6E00D39ACD /* TicketManageViewController.swift in Sources */,
+				E2DCC45E21E5A5D1002C7E1C /* ExpandDetailViewController.swift in Sources */,
+				E2DCC46321E5A5D1002C7E1C /* CornerAnimatable.swift in Sources */,
+				E23D574321E34F310051F8AB /* TicketStatus.swift in Sources */,
+				E2DCC46221E5A5D1002C7E1C /* ConfigurationHelper.swift in Sources */,
+				E2DCC46521E5A5D8002C7E1C /* BookingViewController.swift in Sources */,
+				E2DCC45F21E5A5D1002C7E1C /* ScreenShotHelper.swift in Sources */,
+				E2B43F6C21E47EBE0054DE7A /* TicketManager.swift in Sources */,
+				E2DCC45C21E5A5D1002C7E1C /* PageCollectionLayout.swift in Sources */,
+				E252C5C421E4A1E800F0C793 /* Constants.swift in Sources */,
+				E2DCC45D21E5A5D1002C7E1C /* PageCollectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23D56EA21E34DC80051F8AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23D56F421E34DC80051F8AB /* TicketManagementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E23D56F121E34DC80051F8AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E23D56E421E34DC80051F8AB /* TicketManagement */;
+			targetProxy = E23D56F021E34DC80051F8AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E23D56F721E34DC80051F8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E23D56F821E34DC80051F8AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E23D56FA21E34DC80051F8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TicketManagement/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nals.TicketManagement;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E23D56FB21E34DC80051F8AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TicketManagement/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nals.TicketManagement;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E23D56FD21E34DC80051F8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TicketManagementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nals.TicketManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E23D56FE21E34DC80051F8AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TicketManagementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nals.TicketManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E23D56DF21E34DC80051F8AB /* Build configuration list for PBXProject "TicketManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23D56F721E34DC80051F8AB /* Debug */,
+				E23D56F821E34DC80051F8AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23D56F921E34DC80051F8AB /* Build configuration list for PBXNativeTarget "TicketManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23D56FA21E34DC80051F8AB /* Debug */,
+				E23D56FB21E34DC80051F8AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23D56FC21E34DC80051F8AB /* Build configuration list for PBXNativeTarget "TicketManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23D56FD21E34DC80051F8AB /* Debug */,
+				E23D56FE21E34DC80051F8AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E23D56DC21E34DC80051F8AB /* Project object */;
+}
