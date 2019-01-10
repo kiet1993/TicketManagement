@@ -11,7 +11,7 @@
 
 ## Summary
 
-*TicketManager* is a lightweight theming library completely written in Swift that provides ticketbooking system capabilities to both Swift and Objective-C  applications.
+*TicketManager* is a lightweight library completely written in Swift that provides ticketbooking system capabilities to both Swift and Objective-C  applications.
 
 *TicketManager* is brought to you with ❤️ by PDK team.
 
