@@ -1,0 +1,18 @@
+# About
+module: TicketManagement
+author: PDK team
+author_url: https://google.com
+readme: README.md
+copyright: '© 2019-2017 PDK Team.'
+
+# URLs
+github_url: https://github.com
+root_url: https://github.com
+github_file_prefix: https://github.com
+
+# Generation
+clean: true
+output: Docs
+min_acl: public
+hide_documentation_coverage: false
+skip_undocumented: true
