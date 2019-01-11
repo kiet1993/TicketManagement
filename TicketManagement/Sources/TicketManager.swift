@@ -62,16 +62,14 @@ public class TicketManager {
         }
     }
     
-    private func showLoginView() {
-        print("showLoginView")
+    internal func showLoginView() {
         let sb = UIStoryboard (name: StoryboardName.Login, bundle: Bundle(for: LoginViewController.self))
         let vc = sb.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
         vc.delegate = self
         self.presentViewController?.present(vc, animated: true, completion: nil)
     }
     
-    private func showBookTicketView() {
-        print("showBookTicketView")
+    internal func showBookTicketView() {
         let sb = UIStoryboard (name: StoryboardName.Booking, bundle: Bundle(for: BookingViewController.self))
         let vc = sb.instantiateViewController(withIdentifier: "BookingViewController") as! BookingViewController
         vc.delegate = self
@@ -83,7 +81,7 @@ extension TicketManager: LoginViewControllerDelegate {
     func canceled() {
         delegate?.canceled()
     }
-
+    
     func loginSuccess(with userId: String) {
         isAuthenticated = true
         showBookTicketView()

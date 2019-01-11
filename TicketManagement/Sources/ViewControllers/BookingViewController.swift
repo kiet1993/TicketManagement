@@ -61,6 +61,7 @@ class BookingViewController: UIViewController {
 
 
 // MARK: Setup
+
 extension BookingViewController {
     fileprivate func createDummyData() {
         let film0 = Film(content: "", title: "Mary Poppings returns")

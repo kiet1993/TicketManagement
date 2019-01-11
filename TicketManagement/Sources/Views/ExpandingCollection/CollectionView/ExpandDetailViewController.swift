@@ -12,6 +12,6 @@ class ExpandViewController: UIViewController {
     @IBOutlet weak var headerView: UIView!
     // MARK: Vars
     /// The height of the table view header, set before transition
-    open var headerHeight: CGFloat = 305
+    var headerHeight: CGFloat = 305
     
 }

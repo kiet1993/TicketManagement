@@ -9,7 +9,7 @@
 import UIKit
 import Foundation
 
-public extension UIViewController {
+extension UIViewController {
     
     func addViewController(_ viewController: UIViewController?, toContainerView containerView: UIView) {
         if let viewController = viewController {

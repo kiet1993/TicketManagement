@@ -15,7 +15,6 @@
 		E23D574621E43BAC0051F8AB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D574521E43BAC0051F8AB /* Utilities.swift */; };
 		E23D574921E43BC80051F8AB /* UIViewController+ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D574821E43BC80051F8AB /* UIViewController+ContainerView.swift */; };
 		E23D574B21E43C170051F8AB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D574A21E43C170051F8AB /* LoginViewController.swift */; };
-		E243BD7121E45E6E00D39ACD /* TicketManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E243BD7021E45E6D00D39ACD /* TicketManageViewController.swift */; };
 		E252C5BC21E49A9800F0C793 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E252C5BB21E49A9800F0C793 /* Login.storyboard */; };
 		E252C5BE21E49BC800F0C793 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E252C5BD21E49BC800F0C793 /* Image.xcassets */; };
 		E252C5C421E4A1E800F0C793 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E252C5C321E4A1E800F0C793 /* Constants.swift */; };
@@ -56,7 +55,6 @@
 		E23D574521E43BAC0051F8AB /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		E23D574821E43BC80051F8AB /* UIViewController+ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ContainerView.swift"; sourceTree = "<group>"; };
 		E23D574A21E43C170051F8AB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		E243BD7021E45E6D00D39ACD /* TicketManageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketManageViewController.swift; sourceTree = "<group>"; };
 		E252C5BB21E49A9800F0C793 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		E252C5BD21E49BC800F0C793 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		E252C5C321E4A1E800F0C793 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -161,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				E2DCC46421E5A5D8002C7E1C /* BookingViewController.swift */,
-				E243BD7021E45E6D00D39ACD /* TicketManageViewController.swift */,
 				E23D574A21E43C170051F8AB /* LoginViewController.swift */,
 			);
 			path = ViewControllers;
@@ -416,7 +413,6 @@
 				E23D574921E43BC80051F8AB /* UIViewController+ContainerView.swift in Sources */,
 				E2DCC46121E5A5D1002C7E1C /* SubviewsForEach.swift in Sources */,
 				E23D574621E43BAC0051F8AB /* Utilities.swift in Sources */,
-				E243BD7121E45E6E00D39ACD /* TicketManageViewController.swift in Sources */,
 				E2DCC45E21E5A5D1002C7E1C /* ExpandDetailViewController.swift in Sources */,
 				E2DCC46321E5A5D1002C7E1C /* CornerAnimatable.swift in Sources */,
 				E23D574321E34F310051F8AB /* TicketStatus.swift in Sources */,
