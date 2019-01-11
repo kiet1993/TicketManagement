@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name          = "TicketManager"
-  s.version       = "1.0.0"
+  s.version       = "1.0.2"
   s.summary       = "Ticket manager sdk"
   s.description   = "Ticket management sdk demo"
   s.homepage      = "http://nal.vn"
