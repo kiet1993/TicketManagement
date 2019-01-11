@@ -25,14 +25,14 @@ public enum TicketStatus {
 
 /// The delegate returns result of SDK actions.
 public protocol TicketManageDelegate {
-    /// Return when Ticket booking has been cancelled.
-    func canceled()
+    /// Return when Ticket booking has been canceled.
+    func ticketManagerDidCanceled(_ ticketManager: TicketManager)
     
     
     /// Return when Ticket booking has been booked successfully, includes status.
     ///
     /// - Parameter status: status of ticket.
-    func finish(with status: TicketStatus)
+    func ticketManager(_ ticketManager: TicketManager, didFinishWithStatus status: TicketStatus)
 }
 
 
@@ -79,7 +79,7 @@ public class TicketManager {
 
 extension TicketManager: LoginViewControllerDelegate {
     func canceled() {
-        delegate?.canceled()
+        delegate?.ticketManagerDidCanceled(self)
     }
     
     func loginSuccess(with userId: String) {
@@ -90,6 +90,6 @@ extension TicketManager: LoginViewControllerDelegate {
 
 extension TicketManager: BookingViewControllerDelegate {
     func didBookTicket(for film: Film, ticketId: UUID) {
-        delegate?.finish(with: .success(ticketId.uuidString))
+        delegate?.ticketManager(self, didFinishWithStatus: .success(ticketId.uuidString))
     }
 }
