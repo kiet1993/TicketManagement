@@ -18,6 +18,12 @@
 		E252C5BC21E49A9800F0C793 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E252C5BB21E49A9800F0C793 /* Login.storyboard */; };
 		E252C5BE21E49BC800F0C793 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E252C5BD21E49BC800F0C793 /* Image.xcassets */; };
 		E252C5C421E4A1E800F0C793 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E252C5C321E4A1E800F0C793 /* Constants.swift */; };
+		E27A54662216AD510049EADC /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A54602216AD510049EADC /* Common.m */; };
+		E27A54672216AD510049EADC /* PCSEQVisualizer.h in Headers */ = {isa = PBXBuildFile; fileRef = E27A54612216AD510049EADC /* PCSEQVisualizer.h */; };
+		E27A54682216AD510049EADC /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = E27A54622216AD510049EADC /* UIImage+Color.h */; };
+		E27A54692216AD510049EADC /* PCSEQVisualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A54632216AD510049EADC /* PCSEQVisualizer.m */; };
+		E27A546A2216AD510049EADC /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = E27A54642216AD510049EADC /* Common.h */; };
+		E27A546B2216AD510049EADC /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = E27A54652216AD510049EADC /* UIImage+Color.m */; };
 		E2B43F6C21E47EBE0054DE7A /* TicketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B43F6B21E47EBE0054DE7A /* TicketManager.swift */; };
 		E2DCC45A21E5A5D1002C7E1C /* PlanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DCC44821E5A5D1002C7E1C /* PlanCollectionViewCell.swift */; };
 		E2DCC45B21E5A5D1002C7E1C /* PlanCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2DCC44921E5A5D1002C7E1C /* PlanCollectionViewCell.xib */; };
@@ -58,6 +64,12 @@
 		E252C5BB21E49A9800F0C793 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		E252C5BD21E49BC800F0C793 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		E252C5C321E4A1E800F0C793 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E27A54602216AD510049EADC /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		E27A54612216AD510049EADC /* PCSEQVisualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCSEQVisualizer.h; sourceTree = "<group>"; };
+		E27A54622216AD510049EADC /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		E27A54632216AD510049EADC /* PCSEQVisualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCSEQVisualizer.m; sourceTree = "<group>"; };
+		E27A54642216AD510049EADC /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		E27A54652216AD510049EADC /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		E2B43F6B21E47EBE0054DE7A /* TicketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketManager.swift; sourceTree = "<group>"; };
 		E2DCC44821E5A5D1002C7E1C /* PlanCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanCollectionViewCell.swift; sourceTree = "<group>"; };
 		E2DCC44921E5A5D1002C7E1C /* PlanCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlanCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -132,6 +144,7 @@
 		E23D573B21E34E3F0051F8AB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				E27A545F2216AD510049EADC /* PCSEQ */,
 				E2B43F6B21E47EBE0054DE7A /* TicketManager.swift */,
 				E2DCC44421E5A5D1002C7E1C /* Views */,
 				E252C5C221E4A1DB00F0C793 /* Utilities */,
@@ -186,6 +199,19 @@
 				E252C5C321E4A1E800F0C793 /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E27A545F2216AD510049EADC /* PCSEQ */ = {
+			isa = PBXGroup;
+			children = (
+				E27A54602216AD510049EADC /* Common.m */,
+				E27A54612216AD510049EADC /* PCSEQVisualizer.h */,
+				E27A54622216AD510049EADC /* UIImage+Color.h */,
+				E27A54632216AD510049EADC /* PCSEQVisualizer.m */,
+				E27A54642216AD510049EADC /* Common.h */,
+				E27A54652216AD510049EADC /* UIImage+Color.m */,
+			);
+			path = PCSEQ;
 			sourceTree = "<group>";
 		};
 		E2DCC44421E5A5D1002C7E1C /* Views */ = {
@@ -300,7 +326,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27A54682216AD510049EADC /* UIImage+Color.h in Headers */,
 				E23D56F621E34DC80051F8AB /* TicketManagement.h in Headers */,
+				E27A54672216AD510049EADC /* PCSEQVisualizer.h in Headers */,
+				E27A546A2216AD510049EADC /* Common.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E23D574B21E43C170051F8AB /* LoginViewController.swift in Sources */,
+				E27A54662216AD510049EADC /* Common.m in Sources */,
 				E2DCC46021E5A5D1002C7E1C /* ConstraintsHelper.swift in Sources */,
 				E2DCC45A21E5A5D1002C7E1C /* PlanCollectionViewCell.swift in Sources */,
 				E23D574921E43BC80051F8AB /* UIViewController+ContainerView.swift in Sources */,
@@ -416,6 +446,8 @@
 				E2DCC45E21E5A5D1002C7E1C /* ExpandDetailViewController.swift in Sources */,
 				E2DCC46321E5A5D1002C7E1C /* CornerAnimatable.swift in Sources */,
 				E23D574321E34F310051F8AB /* TicketStatus.swift in Sources */,
+				E27A54692216AD510049EADC /* PCSEQVisualizer.m in Sources */,
+				E27A546B2216AD510049EADC /* UIImage+Color.m in Sources */,
 				E2DCC46221E5A5D1002C7E1C /* ConfigurationHelper.swift in Sources */,
 				E2DCC46521E5A5D8002C7E1C /* BookingViewController.swift in Sources */,
 				E2DCC45F21E5A5D1002C7E1C /* ScreenShotHelper.swift in Sources */,
